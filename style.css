@@ -1,0 +1,38 @@
+:root {
+  --nav-background: red;
+  --nav-padding: 5px;
+  --nav-color: white;
+  --nav-background-mobile: blue;
+  --nav-color-mobile: var(--nav-color);
+  /* --mobile-device: 455px; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--nav-background);
+  padding: var(--nav-padding);
+  color: var(--nav-color);
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0px 30px;
+}
+
+/* @media screen and (max-width: var(--mobile-device)){     not possible to use variables in media expression*/
+@media screen and (max-width: 455px) {
+  nav {
+    background-color: var(--nav-background-mobile);
+    padding: var(--nav-padding);
+    color: var(--nav-color-mobile);
+  }
+}
