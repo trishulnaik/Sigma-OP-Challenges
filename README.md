@@ -8,3 +8,5 @@ Under the guidance of Code With Harry.
 [Challenge-3](https://challenge-3--sigma-op.netlify.app/): Implement the card using HTML and CSS with reference to Card.png image.
 
 [Challenge-4](https://challenge-4--sigma-op.netlify.app/): Design a NavBar, contrast must change according to the global variables changed. 
+
+[Challenge-5](https://challenge-5--sigma-op.netlify.app/): Design a Layout using HTML and CSS with the reference to Design.png image.
