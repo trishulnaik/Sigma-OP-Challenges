@@ -14,3 +14,5 @@ Under the guidance of Code With Harry.
 [Challenge-6](https://challenge-6--sigma-op.netlify.app/): Implement the Navbar using Flexbox from [UltraEdit Website](https://www.ultraedit.com/)
 
 [Challenge-7](https://challenge-7--sigma-op.netlify.app/): Implement the Download Section using Grid from [UltraEdit Website](https://www.ultraedit.com/)
+
+[Challenge-8](https://challenge-8--sigma-op.netlify.app/): Bounce a Ball Animation using CSS
