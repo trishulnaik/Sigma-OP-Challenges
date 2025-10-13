@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+li::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("down-arrow.png");
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+a:hover{
+    color: grey
+}
+
+#nav-download {
+    border: 3px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+}
+
+#nav-language::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("globe.png");
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#Logo {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#nav-hamburger {
+    display: none;
+}
+
+.center-img{
+    display: block;
+    margin: auto;
+}
+
+#reference-img{
+    width: 90vw;
+    border: 10px solid black;
+}
+
+@media screen and (max-width: 995px) {
+    .nav-links {
+        display: none;
+    }
+
+    #nav-language {
+        display: none;
+    }
+
+    #nav-download {
+        display: none;
+    }
+
+    .nav-right {
+        gap: 20px;
+    }
+
+    #nav-hamburger {
+        display: block;
+    }
+}
