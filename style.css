@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+    border: 2px solid black;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    background-color: white;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+li::after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("down-arrow.png");
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-download{
+    border: 3px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.icons{
+    width: 24px;
+    height: 24px;
+}
+
+#nav-language::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("globe.png");
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#Logo{
+    border: 4px solid black;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+#nav-hamburger{
+    display: none;
+}
+
+@media  screen and (max-width: 1350px) {
+    .nav-links{
+        display: none;
+    }
+    #nav-language{
+        display: none;
+    }
+    #nav-download{
+        display: none;  
+    }
+    .nav-right{
+        gap: 20px;
+    }
+    #nav-hamburger{
+    display: block;
+}
+}
