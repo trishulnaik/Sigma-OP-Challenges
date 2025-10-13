@@ -1,0 +1,49 @@
+.container{
+  width: 90vw;
+  height: 80vh;
+  background-color: blue;
+  position: relative;
+}
+
+.ball{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 1px;
+  animation: trishulBall 4s ease-in-out infinite;
+}
+
+@keyframes trishulBall {
+  0% {
+    transform: translate(0vw, 0vh);
+  }
+  12.5% {
+    transform: translate(10vw, -50vh);
+  }
+  25% {
+    transform: translate(20vw, 0vh);
+  }
+
+  37.5% {
+    transform: translate(30vw, -30vh);
+  }
+  50% {
+    transform: translate(40vw, 0vh);
+  }
+
+  62.5% {
+    transform: translate(50vw, -15vh);
+  }
+  75% {
+    transform: translate(60vw, 0vh); 
+  }
+
+  87.5% {
+    transform: translate(70vw, -5vh); 
+  }
+  100% {
+    transform: translate(80vw, 0vh);
+  }
+}
