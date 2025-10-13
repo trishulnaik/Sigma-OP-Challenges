@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -47,7 +51,7 @@ a {
     color: #3d3d3d;
 }
 
-a:hover{
+a:hover {
     color: grey
 }
 
@@ -82,15 +86,67 @@ a:hover{
     display: none;
 }
 
-.center-img{
+.center-img {
     display: block;
     margin: auto;
 }
 
-#reference-img{
+#reference-img {
     width: 90vw;
     border: 10px solid black;
 }
+
+main h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin: 100px;
+    text-align: center;
+}
+
+.download-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40vw;
+    margin: auto;
+    gap: 30px;
+}
+
+
+.download-section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.download-section>div:first-child {
+    grid-column: 1 / -1;
+    width: 30vw;
+    margin: auto;
+    font-size: 1.25em;
+}
+
+main .download-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .download-btn button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .download-btn button:first-child {
+    background-color: #00b6d1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+}
+
 
 @media screen and (max-width: 995px) {
     .nav-links {
@@ -111,5 +167,19 @@ a:hover{
 
     #nav-hamburger {
         display: block;
+    }
+
+    .download-section {
+        grid-template-columns: 1fr;
+        width: 90vw;
+    }
+
+    .download-section>div:first-child {
+        width: 90vw;
+        font-size: 1em;
+    }
+
+    main h1 {
+        margin: 20px 10px;
     }
 }
