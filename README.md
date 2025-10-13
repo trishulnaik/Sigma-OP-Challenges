@@ -16,3 +16,5 @@ Under the guidance of Code With Harry.
 [Challenge-7](https://challenge-7--sigma-op.netlify.app/): Implement the Download Section using Grid from [UltraEdit Website](https://www.ultraedit.com/)
 
 [Challenge-8](https://challenge-8--sigma-op.netlify.app/): Bounce a Ball Animation using CSS
+
+[Challenge-9](https://github.com/trishulnaik/Sigma-OP-Challenges/blob/Challenge-9/index.js) Create a Faulty Calculator.
