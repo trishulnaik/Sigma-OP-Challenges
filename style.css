@@ -1,46 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: grey;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: "Segoe UI", sans-serif;
-    border: 2px solid black;
     padding: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 24px;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
     background-color: white;
 }
 
-.nav-left{
+.nav-right {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 45px;
 }
 
-.nav-right{
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-ul{
+ul {
     display: flex;
     gap: 20px;
 }
 
-li{
+li {
     list-style: none;
 }
 
-li::after{
+li::after {
     content: "";
     display: inline-block;
     width: 20px;
@@ -51,23 +42,27 @@ li::after{
     vertical-align: middle;
 }
 
-a{
+a {
     text-decoration: none;
-    color: black;
+    color: #3d3d3d;
 }
 
-#nav-download{
+a:hover{
+    color: grey
+}
+
+#nav-download {
     border: 3px solid black;
     padding: 10px 20px;
     font-weight: bold;
 }
 
-.icons{
+.icons {
     width: 24px;
     height: 24px;
 }
 
-#nav-language::before{
+#nav-language::before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -78,30 +73,43 @@ a{
     vertical-align: middle;
 }
 
-#Logo{
-    border: 4px solid black;
+#Logo {
+    border: 2px solid black;
     padding: 20px;
-    border-radius: 30%;
 }
 
-#nav-hamburger{
+#nav-hamburger {
     display: none;
 }
 
-@media  screen and (max-width: 1350px) {
-    .nav-links{
+.center-img{
+    display: block;
+    margin: auto;
+}
+
+#reference-img{
+    width: 90vw;
+    border: 10px solid black;
+}
+
+@media screen and (max-width: 995px) {
+    .nav-links {
         display: none;
     }
-    #nav-language{
+
+    #nav-language {
         display: none;
     }
-    #nav-download{
-        display: none;  
+
+    #nav-download {
+        display: none;
     }
-    .nav-right{
+
+    .nav-right {
         gap: 20px;
     }
-    #nav-hamburger{
-    display: block;
-}
+
+    #nav-hamburger {
+        display: block;
+    }
 }
