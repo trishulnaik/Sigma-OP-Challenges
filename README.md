@@ -11,4 +11,6 @@ Under the guidance of Code With Harry.
 
 [Challenge-5](https://challenge-5--sigma-op.netlify.app/): Design a Layout using HTML and CSS with the reference to Design.png image.
 
-[Challenge-6](https://challenge-6--sigma-op.netlify.app/): Implement the Navbar using flexbox from [UltraEdit Website](https://www.ultraedit.com/)
+[Challenge-6](https://challenge-6--sigma-op.netlify.app/): Implement the Navbar using Flexbox from [UltraEdit Website](https://www.ultraedit.com/)
+
+[Challenge-7](https://challenge-7--sigma-op.netlify.app/): Implement the Download Section using Grid from [UltraEdit Website](https://www.ultraedit.com/)
