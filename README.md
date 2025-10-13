@@ -10,3 +10,5 @@ Under the guidance of Code With Harry.
 [Challenge-4](https://challenge-4--sigma-op.netlify.app/): Design a NavBar, contrast must change according to the global variables changed. 
 
 [Challenge-5](https://challenge-5--sigma-op.netlify.app/): Design a Layout using HTML and CSS with the reference to Design.png image.
+
+[Challenge-6](https://challenge-6--sigma-op.netlify.app/): Implement the Navbar using flexbox from [UltraEdit Website](https://www.ultraedit.com/)
