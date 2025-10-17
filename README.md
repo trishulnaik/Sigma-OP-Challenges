@@ -20,3 +20,5 @@ Under the guidance of Code With Harry.
 [Challenge-9](https://challenge-9--sigma-op.netlify.app/) Create a Faulty Calculator.
 
 [Challenge-10](https://challenge-10--sigma-op.netlify.app/) Business Name Generator
+
+[Challenge-11](https://challenge-11--sigma-op.netlify.app/) Calculate Factorial of a number using reduce and for loops
