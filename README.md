@@ -17,4 +17,6 @@ Under the guidance of Code With Harry.
 
 [Challenge-8](https://challenge-8--sigma-op.netlify.app/): Bounce a Ball Animation using CSS
 
-[Challenge-9](https://github.com/trishulnaik/Sigma-OP-Challenges/blob/Challenge-9/index.js) Create a Faulty Calculator.
+[Challenge-9](https://challenge-9--sigma-op.netlify.app/) Create a Faulty Calculator.
+
+[Challenge-10](https://challenge-10--sigma-op.netlify.app/) Business Name Generator
