@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container{
+    width: 200px;
+    height: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.video-duration{
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px;
+}
+
+.desciption span:not(:last-child)::after {
+    content: " * ";
+    vertical-align: sub;
+}
