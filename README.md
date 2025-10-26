@@ -22,3 +22,5 @@ Under the guidance of Code With Harry.
 [Challenge-10](https://challenge-10--sigma-op.netlify.app/) Business Name Generator
 
 [Challenge-11](https://challenge-11--sigma-op.netlify.app/) Calculate Factorial of a number using reduce and for loops
+
+[Challenge-12](https://challenge-12--sigma-op.netlify.app/) Given 5 boxes, assign a random color and a random background to each box using DOM concepts.
