@@ -24,3 +24,5 @@ Under the guidance of Code With Harry.
 [Challenge-11](https://challenge-11--sigma-op.netlify.app/) Calculate Factorial of a number using reduce and for loops
 
 [Challenge-12](https://challenge-12--sigma-op.netlify.app/) Given 5 boxes, assign a random color and a random background to each box using DOM concepts.
+
+[Challenge-13](https://challenge-13--sigma-op.netlify.app/) Design the Card using the Reference of Card.png
